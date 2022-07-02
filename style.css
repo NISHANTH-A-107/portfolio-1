@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&family=Yellowtail&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation part editing */
+nav{
+    background-color: pink;
+}
+nav ul{
+    margin: 0 0;
+    background-color: #666c78;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: x-large;
+}
+nav .other li{
+    padding-right: 2vw;
+    font-size: large;
+    padding-top: 0vh;
+}
+nav li{
+    margin: 10px 0;
+}
+nav .other li a{
+    text-decoration: none;
+    color: black;
+}
+nav .name{
+    padding-left: 2vw;
+}
+nav .other li a:hover{
+    color: aqua;
+    cursor: grab;
+}
+
+/* Header part editing*/
+
+header{
+    background-color: #1e2a3f;
+    color: rgb(47, 62, 202);
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+    padding-top: 20vh;
+}
+header p{
+    padding-right: 20vw;
+    font-family: 'Yellowtail', cursive;
+    font-size: xx-large;
+}
+header h2{
+    padding-left: 20vw;
+    font-size: xxx-large;
+}
+
+/* Bio part editing */
+
+#about{
+    width: 100%;
+    height: fit-content;
+    background-color: #5461bf;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#about .pp{
+    margin: auto 10vw;
+    width: 10vw;
+    height: 20vh;
+    border-radius: 100vh;
+}
+#about article{
+    font-size: xx-large;
+    margin: 10vh 10vw;
+}
+#about h2{
+    font-size: xxx-large;
+}
+#about article p{
+    padding-top: 2vh;
+}
+
+/* Portfoloio editing with 3 images a title and some article */
+
+#img3 h4{
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 auto;
+}
+#img3 h6{
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+#img3 .pics{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: large;
+    margin: 0 auto;
+    padding-right: 4vw;
+}
+#img3{
+    background-color: #30387a;
+    color: rgb(145, 127, 92);
+}
+
+/* Skills section starts from here */
+
+#skill{
+    width: 100%;
+    height: fit-content;
+    background-color: #4054e6;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+#skill h2{
+    text-align: center;
+    font-size: xxx-large;
+}
+#skill .tit{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: xx-large;
+    margin-top: 3vh;
+}
+#skill .main{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+#skill .main .p1 .p11{
+    list-style: none;   
+    font-size: x-large;
+    margin-top: 5vh;
+}
+#skill .main .p2 .p22{
+    list-style: none;
+    font-size: x-large;
+    margin-top: 5vh;
+}
+#skill .main progress{
+    border-style: solid red 5px;
+    background-color: white;
+}
+
+/*  Footer details with contacts */
+
+#contact{
+    background-color: #2e2f36 ;
+    color: rgb(129, 129, 50);
+}
+#contact ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: x-large;
+    margin: 0 3vw;
+}
+#contact h2{
+    text-align: center;
+    font-size: xx-large;
+    padding-top: 2vh;
+}
+#contact .mm{
+    list-style: none;
+    padding-top: 0vh;
+}
+#contact .pi{
+    list-style: none;
+    padding-top: 2vh;
+}
+#contact .pi a{
+    text-decoration: none;
+    color: rgb(129, 129, 50);
+}
+#contact .pi a:hover{
+    color: aqua;
+}
